@@ -3,15 +3,11 @@ def merge(arrA, arrB):
     elements = len(arrA) + len(arrB)
     merged_arr = [0] * elements
 
-    # Your code here
-
-
     return merged_arr
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
 def merge_sort(arr):
-    # Your code here
     if len(arr) >1: 
             mid = len(arr)//2 #Finding the mid of the array 
             L = arr[:mid] # Dividing the array elements  
